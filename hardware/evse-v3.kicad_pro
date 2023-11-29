@@ -452,7 +452,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 3.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -495,12 +495,16 @@
         "pattern": "N"
       },
       {
-        "netclass": "Default",
+        "netclass": "230V",
         "pattern": "N'"
       },
       {
-        "netclass": "Default",
+        "netclass": "230V",
         "pattern": "L''"
+      },
+      {
+        "netclass": "230V",
+        "pattern": "PE"
       }
     ]
   },
