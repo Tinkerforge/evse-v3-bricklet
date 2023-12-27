@@ -7640,30 +7640,6 @@
     )
   )
 
-  (symbol (lib_id "tinkerforge:DRILL") (at 397.764 248.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f91dcb3)
-    (property "Reference" "A103" (at 399.034 247.65 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Value" "DRILL" (at 393.954 248.92 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Footprint" "kicad-libraries:DRILL_NP_35" (at 397.764 248.92 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 397.764 248.92 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (instances
-      (project "evse-v3"
-        (path "/f609c103-5320-46aa-8e26-d6b60e489ee7"
-          (reference "A103") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "tinkerforge:DRILL") (at 389.89 248.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f91e34f)

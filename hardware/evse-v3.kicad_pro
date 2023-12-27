@@ -501,10 +501,6 @@
       {
         "netclass": "230V",
         "pattern": "L''"
-      },
-      {
-        "netclass": "230V",
-        "pattern": "PE"
       }
     ]
   },
