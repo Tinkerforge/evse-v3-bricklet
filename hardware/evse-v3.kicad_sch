@@ -5827,6 +5827,11 @@
     (effects (font (size 0.5 0.5)) (justify left bottom))
     (uuid 306f0753-0251-48ed-9900-68ba247f4f85)
   )
+  (text "DIP Switch Settings\n18 27 36 45   00 29\n0  0  0  0 -> F  F -> Invalid\n1  0  0  0 -> F  H -> 6A\n0  1  0  0 -> H  F -> 10A\n1  1  0  0 -> H  H -> 13A\n0  0  1  0 -> F  L -> 16A\n1  0  1  0 -> L  F -> 20A\n1  1  1  0 -> H  L -> 25A\n1  1  1  1 -> L  L -> 32A"
+    (at 62.865 27.305 0)
+    (effects (font (size 0.9 0.9)) (justify left bottom))
+    (uuid 34868cc7-05a5-4471-bc46-58f771a77bd2)
+  )
   (text "ESP32 5V Power Supply" (at 122.936 33.274 0)
     (effects (font (size 0.9906 0.9906)) (justify right bottom))
     (uuid 3ce5b0bf-f23b-4125-bab7-ca62ca90bda7)
@@ -5956,9 +5961,9 @@
     (effects (font (size 0.9906 0.9906)) (justify left bottom))
     (uuid df64dce8-7770-44d1-b85f-430b4eb46709)
   )
-  (text "18 27 36 45   00 29\n0  0  0  0 -> F  F\n1  0  0  0 -> F  H\n0  1  0  0 -> H  F\n1  1  0  0 -> H  H\n0  0  1  0 -> F  L\n1  0  1  0 -> L  F\n0  1  1  0 -> H  L\n1  1  1  0 -> H  L\n0  0  0  1 -> L  F\n1  0  0  1 -> L  H\n0  1  0  1 -> L  F\n1  1  0  1 -> L  H\n0  0  1  1 -> L  L\n1  0  1  1 -> L  L\n0  1  1  1 -> L  L\n1  1  1  1 -> L  L"
-    (at 70.612 40.894 0)
-    (effects (font (size 0.9906 0.9906)) (justify left bottom))
+  (text "DIP Switch Settings (all)\n18 27 36 45   00 29\n0  0  0  0 -> F  F -> Invalid\n1  0  0  0 -> F  H -> 6A\n0  1  0  0 -> H  F -> 10A\n1  1  0  0 -> H  H -> 13A\n0  0  1  0 -> F  L -> 16A\n1  0  1  0 -> L  F -> 20A\n0  1  1  0 -> H  L -> 25A\n1  1  1  0 -> H  L -> 25A\n0  0  0  1 -> L  F -> 20A\n1  0  0  1 -> L  H -> reserved\n0  1  0  1 -> L  F -> 20A\n1  1  0  1 -> L  H -> reserved\n0  0  1  1 -> L  L -> 32A\n1  0  1  1 -> L  L -> 32A\n0  1  1  1 -> L  L -> 32A\n1  1  1  1 -> L  L -> 32A"
+    (at 59.69 62.23 0)
+    (effects (font (size 0.5 0.5)) (justify left bottom))
     (uuid e3bf59e2-8dc6-430c-b972-7860db0d0199)
   )
   (text "SPI Slave/CH0\nP0.13 : USIC0_CH0-DX2F : SEL\nP0.14 : USIC0_CH0-DX1A : CLK\nP0.15 : USIC0_CH0-DX0B : MOSI\nP2.0 : USIC0_CH0-DOUT0 : MISO"
@@ -5986,11 +5991,6 @@
   (text "Ersatz  TPS70933QDBVRQ1" (at 191.135 127.635 0)
     (effects (font (size 0.9906 0.9906)) (justify left bottom))
     (uuid f11502aa-fd57-40ce-bd8c-e97c1efbf9b5)
-  )
-  (text "Maximum Power Setting\nno jumper: invalid\nP0_0 = 3V3, P2_9 = 3V3 -> invalid\nP0_0 = DNC, P2_9 = 3V3 -> 6A\nP0_0 = GND, P2_9 = 3V3 -> 10A\nP0_0 = 3V3, P2_9 = DNC -> 13A\nP0_0 = DNC, P2_9 = DNC -> 16A\nP0_0 = GND, P2_9 = DNC -> 20A\nP0_0 = 3V3, P2_9 = GND -> 25A\nP0_0 = DNC, P2_9 = GND -> 32A\nP0_0 = GND, P2_9 = GND -> reserved"
-    (at 57.658 64.262 0)
-    (effects (font (size 0.9906 0.9906)) (justify left bottom))
-    (uuid f61fc37d-1538-4fed-8529-625405319d70)
   )
 
   (global_label "PE" (shape output) (at 73.66 180.34 0) (fields_autoplaced)
