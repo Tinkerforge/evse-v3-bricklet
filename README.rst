@@ -1,8 +1,6 @@
 EVSE Bricklet 3.0
 =================
 
-Work in progress!
-
 This repository contains the firmware source code and the hardware design
 files. The documentation generator configs can be found at
 https://github.com/Tinkerforge/generators
