@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 40,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -36,11 +36,9 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -65,8 +63,14 @@
       35,
       36
     ],
-    "visible_layers": "003fffd_00000001",
+    "visible_layers": "003fefd_00000001",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "evse-v3.kicad_prl",
