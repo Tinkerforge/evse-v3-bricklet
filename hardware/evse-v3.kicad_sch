@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "EVSE Bricklet")
-		(date "2023-12-19")
-		(rev "3.5")
+		(date "2024-05-31")
+		(rev "3.6")
 		(company "Tinkerforge GmbH")
 		(comment 1 "Licensed under CERN OHL v.1.1")
-		(comment 2 "Copyright (©) 2023, B.Nordmeyer <bastian@tinkerforge.com>")
+		(comment 2 "Copyright (©) 2024, B.Nordmeyer <bastian@tinkerforge.com>")
 	)
 	(lib_symbols
 		(symbol "tinkerforge:3V3"
@@ -9680,6 +9680,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 88.9) (xy 326.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202435f4-fa17-4bb2-bef6-321f910cd2e4")
+	)
+	(wire
+		(pts
 			(xy 53.34 25.4) (xy 53.34 27.94)
 		)
 		(stroke
@@ -13277,6 +13287,16 @@
 			(type default)
 		)
 		(uuid "b7e83706-ca73-411e-9436-e685159798d6")
+	)
+	(wire
+		(pts
+			(xy 326.39 101.6) (xy 326.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ff3809-c45b-4eff-ad22-d65cf3b8467b")
 	)
 	(wire
 		(pts
@@ -31212,6 +31232,74 @@
 	)
 	(symbol
 		(lib_id "tinkerforge:C")
+		(at 326.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de60b18-a6cd-412b-8770-4ac48a3be4e8")
+		(property "Reference" "C126"
+			(at 322.58 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 330.454 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad-libraries:C0402F"
+			(at 326.39 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be3407d8-5963-4365-aaaf-778a19a47c16")
+		)
+		(pin "2"
+			(uuid "4b4ec180-1832-4841-b730-f752b2801481")
+		)
+		(instances
+			(project "evse-v3"
+				(path "/f609c103-5320-46aa-8e26-d6b60e489ee7"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tinkerforge:C")
 		(at 214.376 52.959 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32171,6 +32259,70 @@
 			(project "evse-v3"
 				(path "/f609c103-5320-46aa-8e26-d6b60e489ee7"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tinkerforge:GND")
+		(at 326.39 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8255bde5-8f32-4f18-bfea-899bbadd3ba0")
+		(property "Reference" "#PWR0110"
+			(at 326.39 104.14 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 105.918 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc6f5a4e-351c-4c63-a1a3-3384d2b9bea1")
+		)
+		(instances
+			(project "evse-v3"
+				(path "/f609c103-5320-46aa-8e26-d6b60e489ee7"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
